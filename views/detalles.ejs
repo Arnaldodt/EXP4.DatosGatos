@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/recursos/stylesheet/gatos.css">
+</head>
+<body>
+    <h1>DETAILS PAGE FOR <%= gato.name %></h1>
+    <div>
+        <img src="/recursos/imagenes/<%= gato.Imagen %>" alt="<%= gato.name %>">
+    </div>
+    <h3>comida favorita: <%= gato.Food %></h3>
+    <h3>Años: <%= gato.Age %></h3>
+    <h3>lugares para dormir: <%= gato.dormir %></h3>
+    <a href="/gatos">Volver</a>
+</body>
+</html>
